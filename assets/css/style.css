@@ -119,8 +119,10 @@ h2 {
 
 .float-left {
     display:flex;
+    flex-direction: column;
     width:25%;
     align-self:left;
+    align-items: center;
     margin:10px 0;
 }
 
